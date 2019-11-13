@@ -1,0 +1,564 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.My-container {
+  padding: 0 5% 0 5%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-family: myriad;
+  text-shadow: 1px 1px 1px black;
+}
+
+a:hover {
+  color: rgba(211, 207, 207, 0.966);
+  text-decoration: underline;
+}
+
+.hr {
+  height: 1px;
+  background-color: #000000;
+  width: 80%;
+  margin: 1% auto 2% auto;
+}
+
+h2 {
+  font: 40px myriad #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font: 34px myriad #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00000000;
+}
+
+#slider .d-block {
+  width: auto;
+  height: 100vh;
+}
+
+#slider .carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3%;
+}
+
+#slider .carousel-caption h3 {
+  text-align: center;
+  text-shadow: 1px 2px 1px #000000;
+  margin-bottom: 20px;
+}
+
+#slider .carousel-caption h3 span {
+  font-family: myriad;
+  font-weight: bold;
+  font-size: 80px;
+  color: #192DA1;
+}
+
+#slider .carousel-caption p {
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#History-Of-Battery {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#History-Of-Battery div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#History-Of-Battery div img {
+  width: 300px;
+  height: 350px;
+}
+
+#History-Of-Battery div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-content: center;
+}
+
+#History-Of-Battery div div p {
+  text-align: left;
+  font: 20px myriad black;
+  font-weight: 400;
+  margin-bottom: 5%;
+  margin-top: -5%;
+  width: 90%;
+}
+
+#History-Of-Battery div div button {
+  background-color: #000000;
+  width: 250px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font: 22px myriad;
+  border-radius: 25px;
+  border: none;
+  -webkit-box-shadow: 2px 1px 3px 0px 0, 0, 0, 0.5;
+          box-shadow: 2px 1px 3px 0px 0, 0, 0, 0.5;
+  display: inline-block;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: -5%;
+  margin-left: 15%;
+}
+
+#History-Of-Battery div div button:hover {
+  background-color: #00030a;
+  -webkit-box-shadow: 2px 1px 4px 1px black;
+          box-shadow: 2px 1px 4px 1px black;
+}
+
+@media (max-width: 769px) {
+  #History-Of-Battery div div p {
+    margin-top: 5%;
+  }
+  #History-Of-Battery div div button {
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 769px) {
+  #History-Of-Battery div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#Battereis-Kinds .hr {
+  width: 100%;
+}
+
+#Battereis-Kinds h2 {
+  margin-bottom: 5%;
+}
+
+#Battereis-Kinds #primary-one h3 {
+  font-size: 26px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 769px) {
+  #Battereis-Kinds #primary-one h3 {
+    margin-bottom: 10%;
+  }
+}
+
+#Battereis-Kinds #primary-one div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 769px) {
+  #Battereis-Kinds #primary-one div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#Battereis-Kinds #primary-one div img {
+  width: 350px;
+  height: auto;
+}
+
+@media (max-width: 769px) {
+  #Battereis-Kinds #primary-one div img {
+    margin-top: 5%;
+  }
+}
+
+#Battereis-Kinds #primary-one div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Battereis-Kinds #primary-one div div p {
+  text-align: left;
+  font: 20px myriad black;
+  font-weight: 400;
+  margin-bottom: 5%;
+  margin-top: -5%;
+  width: 90%;
+}
+
+#Battereis-Kinds #primary-one div div button {
+  background-color: #000000;
+  width: 250px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font: 22px myriad;
+  border-radius: 25px;
+  border: none;
+  -webkit-box-shadow: 2px 1px 3px 0px 0, 0, 0, 0.5;
+          box-shadow: 2px 1px 3px 0px 0, 0, 0, 0.5;
+  display: inline-block;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50%;
+}
+
+#Battereis-Kinds #primary-one div div button:hover {
+  background-color: #00030a;
+  -webkit-box-shadow: 2px 1px 4px 1px black;
+          box-shadow: 2px 1px 4px 1px black;
+}
+
+#Battereis-Kinds #secondary-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 769px) {
+  #Battereis-Kinds #secondary-one {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#Battereis-Kinds #secondary-one img {
+  width: 350px;
+  height: auto;
+}
+
+#Battereis-Kinds #secondary-one div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Battereis-Kinds #secondary-one div h3 {
+  margin-bottom: 10%;
+  margin-left: -57%;
+}
+
+#Battereis-Kinds #secondary-one div p {
+  margin-top: 5%;
+}
+
+#Battereis-Kinds #secondary-one div button {
+  margin-left: -60% !important;
+}
+
+#all-battery-kinds {
+  margin-bottom: 3%;
+}
+
+#all-battery-kinds h2 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#all-battery-kinds div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 769px) {
+  #all-battery-kinds div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#all-battery-kinds div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid #000000 1px;
+  border-radius: 15px;
+  padding: 5%;
+  width: 25%;
+  height: 320px;
+  margin-right: 1%;
+}
+
+@media (max-width: 769px) {
+  #all-battery-kinds div div {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+}
+
+#all-battery-kinds div div img {
+  width: auto;
+  border-radius: 15px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+#all-battery-kinds div div h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+#all-battery-kinds div div:hover {
+  -webkit-box-shadow: 1px 0px 1px black;
+          box-shadow: 1px 0px 1px black;
+}
+
+#links-refre a {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 100;
+  text-shadow: 0px 0px 0px black;
+}
+
+footer {
+  background-color: #000000;
+  height: 50px;
+  padding-top: 5px;
+}
+
+footer p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#popupss .pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.397);
+  display: none;
+}
+
+#popupss .pop-up .inner {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  width: 60%;
+  height: 80%;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  overflow: scroll;
+}
+
+#popupss .pop-up .inner h2 {
+  text-align: center;
+  margin: 0px;
+}
+
+#popupss .pop-up .inner h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+#popupss .pop-up .inner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#popupss .pop-up .inner div img {
+  height: 200px;
+  width: 300px;
+  margin: 0px;
+}
+
+#popupss .pop-up .inner p {
+  text-align: center;
+}
+
+#popupss .pop-up .inner p span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
